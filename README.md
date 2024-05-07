@@ -5,14 +5,14 @@ Welcome to my Pet Adoption Platform. This project was created to hone my full-st
 ## Features
 
 -- User Management
---- **Registration**: Users can sign up for an account by providing basic information.
-**Login/Logout**: Registered users can log in securely to access the platform's features and log out when they're done.
-**Authentication**: Authentication mechanisms are in place to ensure the security of user data and actions.
+- **Registration**: Users can sign up for an account by providing basic information.
+- **Login/Logout**: Registered users can log in securely to access the platform's features and log out when they're done.
+- **Authentication**: Authentication mechanisms are in place to ensure the security of user data and actions.
 
 -- Pet Adoption
---- **Browse Pets**: Users can browse through a list of available pets up for adoption.
---- **Search and Filter**: Users can search for specific pets or filter them based on criteria such as species, age, or location.
---- **Pet Details**: Each pet has a detailed profile showcasing information like breed, age, personality, and adoption status.
+- **Browse Pets**: Users can browse through a list of available pets up for adoption.
+- **Search and Filter**: Users can search for specific pets or filter them based on criteria such as species, age, or location.
+-  **Pet Details**: Each pet has a detailed profile showcasing information like breed, age, personality, and adoption status.
 
 ## Getting Started
 
