@@ -25,55 +25,56 @@ Welcome to my Pet Adoption Platform. This project was created to hone my full-st
 ## Getting Started
 Follow these instructions to get the Pet Adoption Platform up and running on your local machine.
 
-### Dependencies
+### Prerequisites
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+- Node.js and npm installed on your machine
+- MongoDB installed and running locally or access to a MongoDB instance
 
-### Installing
+### Installation
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
+1. Clone the repository to your local machine:
 ```
-code blocks for commands
+https://github.com/eitanklass1/pet-adoption-platform.git
 ```
 
-## Help
+2. Navigate to the project directory:
+```
+cd pet-adoption-platform
+```
 
-Any advise for common problems or issues.
+3. Install dependencies for both backend and frontend:
 ```
-command to run if program contains helper info
+cd backend && npm install
+cd ../frontend && npm install
 ```
+
+4. Set up environment variables:
+- Create a .env file in the backend directory.
+```
+PORT = 8080
+MongoDB_uri =
+
+TOKEN_SECTRET_KEY = 
+CLOUDINARY_CLOUD_NAME = 
+CLOUDINARY_API_KEY = 
+CLOUDINARY_API_SECRET = 
+```
+
+## Running the Application
+1. Start the backend server:
+```
+cd backend && nodemon server.js
+```
+2. Start the frontend development server:
+bash
+Copy code
+```
+cd frontend && npm start
+```
+3. Access the application in your web browser at `http://localhost:8080`.
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+ex. [Eitan Klass](https://www.linkedin.com/in/eitan-klass/)
