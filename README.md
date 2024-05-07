@@ -73,6 +73,8 @@ cd frontend && npm start
 ```
 3. Access the application in your web browser at `http://localhost:8080`.
 
+## Gallery
+
 ## Authors
 
 Contributors names and contact info
