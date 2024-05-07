@@ -1,0 +1,77 @@
+.pet-card {
+  border-radius: 4px;
+  max-width: 230px;
+  padding: 0.8rem;
+  border: 2px #2e3192 solid;
+  text-align: left;
+}
+
+.card-pet-header {
+  display: flex;
+  align-items: center;
+}
+
+.card-pet-name-content {
+  font-size: 1.2rem;
+  margin: 0 0.4rem 0 0;
+  padding: 0;
+}
+
+.card-pet-status-content {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.card-pet-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.type-tag,
+.weight-tag,
+.height-tag {
+  margin: 0.4rem 0.8rem 0 0;
+  padding: 0.4rem;
+  background-color: #eeeeee;
+  border-radius: 4px;
+  display: flex; /* Make the container flex */
+  align-items: center; /* Center align items vertically */
+}
+
+.type-tag img,
+.weight-tag img,
+.height-tag img {
+  margin-right: 0.2rem; /* Add margin to the right of the icons */
+}
+
+.card-buttons {
+  display: flex;
+  margin-top: 0.8rem;
+}
+
+.see-more {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 2px solid #2e3192;
+  padding: 0.2rem;
+  font-size: 1rem;
+}
+
+.save-button {
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #dd2e44;
+}
+
+.card-picture > img {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+  border-radius: 4px;
+}

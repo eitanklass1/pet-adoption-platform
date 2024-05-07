@@ -1,0 +1,21 @@
+#add-pet-form > form {
+  h2 {
+    margin-bottom: 0.15rem;
+  }
+
+  p {
+    margin-top: 0rem;
+  }
+
+  .form-label {
+    font-weight: 600;
+  }
+
+  .form-input {
+    margin-bottom: 0.4rem;
+  }
+
+  button {
+    margin-top: 0.5rem;
+  }
+}
